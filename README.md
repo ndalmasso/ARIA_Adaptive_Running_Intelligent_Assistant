@@ -30,29 +30,34 @@ ARIA is an adaptive, music-driven coach that actually cares how your run is goin
 
 The interactive notebook demonstrates ARIA's core functionality:
 
-### Step 1: Personal Setup
-Configure your runner profile with basic stats (age, weight, height) to calculate personalized heart rate zones and optimal BPM ranges for each training zone.
-
-### Step 2: Pre-Run Planning  
-ARIA analyzes your goals and creates a dynamic session plan, mapping training zones to musical BPM ranges that will guide your workout intensity.
-
-### Step 3: Live Adaptation
+Step 1: Setup & Pre-Run Planning
+Configure your runner profile with basic stats (age, weight, height) to calculate personalized heart rate zones and optimal BPM ranges for each training zone. ARIA then analyzes your goals and creates a dynamic session plan, mapping training zones to musical BPM ranges that will guide your workout intensity.
+<p align="center">
+  <img width="688" height="117" alt="aria" src="https://github.com/user-attachments/assets/66fd7df3-c842-4d27-942c-a6b12d418cd5" />  
+</p>
+Step 2: Live Adaptation
 During your simulated run, provide real-time feedback:
-- **UP** - Feeling strong, ready for higher intensity
-- **DOWN** - Need to dial it back, lower the intensity  
-- **OK** - Current pace feels right
+
+UP - Feeling strong, ready for higher intensity
+DOWN - Need to dial it back, lower the intensity
+OK - Current pace feels right
 
 ARIA instantly adjusts both your training zone and music selection to match your actual state.
-
-### Step 4: Learning & Growth
+<p align="center">
+  <img width="336" height="748" alt="Screenshot 2025-08-14 113850" src="https://github.com/user-attachments/assets/aad51d69-fc25-46ef-8016-a2499176d1a9" />  
+</p>
+Step 3: Learning & Growth
 Post-run feedback helps ARIA learn your patterns and preferences for future sessions.
+<p align="center">
+  <img width="688" height="373" alt="aria - Copy (2)" src="https://github.com/user-attachments/assets/778cadab-7afa-4d98-9195-1c6e93cb08f5" />
+</p>
 
 ## Repository Structure
 
 ```
-├── aria_demo.ipynb                    # Interactive ARIA demonstration
-├── demo_video.mp4                     # Visual demonstration of ARIA in action
-└── README.md                          # This file
+├── _ARIA_.ipynb                    # Interactive ARIA demonstration
+├── _ARIA_demo_video.mp4            # Visual demonstration of ARIA in action
+└── README.md                       # This file
 ```
 
 ## Requirements
